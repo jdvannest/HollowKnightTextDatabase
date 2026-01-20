@@ -18,11 +18,11 @@ You may get an error when verifying the app along the lines of "This app is dama
 
 ### Windows
 
-Download the **HKTD_Windows.zip** file. Double click the .zip file to open its contents. Drag the HKTD application out of the opened .zip file to extract it. You can now move the app wherever you'd like on your system and the .zip file can be safely deleted.
+Download the **HKTD_Win.zip** file. Double click the .zip file to open its contents. Drag the HKTD Folder out of the opened .zip file to extract it. You can now move the Folder wherever you'd like on your system and the .zip file can be safely deleted. Inside the Folder you will find the app (.exe file) and a folder (*do not interact with this folder or you may prevent the app from working properly*). The app needs to remain inside the HKTD Folder, but you can make a shortcut of it so you can run the app from wherever you'd like on your system.
 
 ## Run the App
 
-Simply doulbe click the application to launch it! It will likely take a bit of time to launch (10-20 seconds), especially the first time, so don't worry.
+Simply doulbe click the application to launch it! It may take a bit of time to launch (10-20 seconds), especially the first time, so don't worry.
 
 <img width="1401" height="773" alt="Sample" src="https://github.com/user-attachments/assets/83c1a006-3b61-4260-ae10-c8351cbed24c" />
 
@@ -66,7 +66,7 @@ The dropdown menus in the top left of the application have some useful functions
 
 **Menu: Quit** will close the application.
 
-**Data: Import Data** will ask you to input a Excel File (.xlsx), which it will use to rebuild the database using the new data (see the [Editing the Data](#editing-the-data) section below).
+**Data: Import Data** will ask you to input a Excel File (.xlsx), which it will use to rebuild the database using the new data (see the [Editing the Data](#editing-the-data) section below). This may take a few seconds.
 
 **Data: Revert Data** will revert the database to the original form it had when downloaded from GitHub. This will undo any changes made by the Import Data option.
 
