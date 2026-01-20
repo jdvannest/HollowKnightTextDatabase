@@ -14,6 +14,8 @@ This app uses the same font as the games: Trajan Pro. While it *shouldn't* be ne
 
 Download the **HKTD_Mac.zip** file. Double click the .zip file to extract the HKTD application. You can now move the app wherever you'd like on your system and the .zip file can be safely deleted.
 
+You may get an error when verifying the app along the lines of "This app is damaged and can't be opened". This is a security measure that Apple uses to ignore apps not downloaded through the App Store. To fix this, right click the app and select "copy". Then in the search bar, open the Terminal program. In the terminal type "xattr -dr com.apple.quarantine " then paste the path to the app in the terminal. The full terminal command should look like "xattr -dr com.apple.quarantine <copied_path>/HKTD.app" where <copied_path> should be the path to where you placed the app on your system. Press Enter in the terminal, and the app should work from now on.
+
 ### Windows
 
 Download the **HKTD_Windows.zip** file. Double click the .zip file to open its contents. Drag the HKTD application out of the opened .zip file to extract it. You can now move the app wherever you'd like on your system and the .zip file can be safely deleted.
