@@ -6,23 +6,23 @@ Welcome to the Hollow Knight Text Database! This app is a searchable repository 
 
 ## Install the Hollow Knight Font (Optional)
 
-This app uses the same font as the games: Trajan Pro. While it *shouldn't* be necessary to install this font for the app to run, it is highly recommended as all of the interface formatting is built around it. The font file (.ttf) is included in this repository. Simply download the file and double click it. Your system should then give you the option to install the font. **You only have to do this once.**
+This app uses the same font as the games: Trajan Pro. While it *shouldn't* be necessary to install this font for the app to run, it is highly recommended as all of the interface formatting is built around it. The font file (.ttf) is included in this repository. Simply [download the file](https://github.com/jdvannest/HollowKnightTextDatabase/raw/refs/heads/main/Trajan%20Pro%20Regular.ttf) and double click it. Your system should then give you the option to install the font. **You only have to do this once.**
 
 ## Download the App
 
 ### Mac
 
-Download the **HKTD_Mac.zip** file. Double click the .zip file to extract the HKTD application. You can now move the app wherever you'd like on your system and the .zip file can be safely deleted.
+Download the [**HKTD_Mac.zip**](https://github.com/jdvannest/HollowKnightTextDatabase/raw/refs/heads/main/HKTD_Mac.zip) file. Double click the .zip file to extract the HKTD application. You can now move the app wherever you'd like on your system and the .zip file can be safely deleted.
 
 You may get an error when verifying the app along the lines of "This app is damaged and can't be opened". This is a security measure that Apple uses to ignore apps not downloaded through the App Store. To fix this, right click the app and select "copy". Then in the search bar, open the Terminal program. In the terminal type "xattr -dr com.apple.quarantine " then paste the path to the app in the terminal. The full terminal command should look like "xattr -dr com.apple.quarantine <copied_path>/HKTD.app" where <copied_path> should be the path to where you placed the app on your system. Press Enter in the terminal, and the app should work from now on.
 
 ### Windows
 
-Download the **HKTD_Win.zip** file. Double click the .zip file to open its contents. Drag the HKTD Folder out of the opened .zip file to extract it. You can now move the Folder wherever you'd like on your system and the .zip file can be safely deleted. Inside the Folder you will find the app (.exe file) and a folder (*do not interact with this folder or you may prevent the app from working properly*). The app needs to remain inside the HKTD Folder, but you can make a shortcut of it so you can run the app from wherever you'd like on your system.
+Download the [**HKTD_Win.zip**](https://github.com/jdvannest/HollowKnightTextDatabase/raw/refs/heads/main/HKTD_Win.zip) file. Double click the .zip file to open its contents. Drag the HKTD Folder out of the opened .zip file to extract it. You can now move the Folder wherever you'd like on your system and the .zip file can be safely deleted. Inside the Folder you will find the app (.exe file) and a folder (*do not interact with this folder or you may prevent the app from working properly*). The app needs to remain inside the HKTD Folder, but you can make a shortcut of it so you can run the app from wherever you'd like on your system.
 
 ## Run the App
 
-Simply doulbe click the application to launch it! It may take a bit of time to launch (10-20 seconds), especially the first time, so don't worry.
+Simply double click the application to launch it! It may take a bit of time to launch (10-20 seconds), especially the first time, so don't worry.
 
 <img width="1401" height="773" alt="Sample" src="https://github.com/user-attachments/assets/83c1a006-3b61-4260-ae10-c8351cbed24c" />
 
