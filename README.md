@@ -6,7 +6,7 @@ Welcome to the Hollow Knight Text Database! This app is a searchable repository 
 
 ## Install the Hollow Knight Fonts (Optional)
 
-This app uses the same fonts as the games: Trajan Pro and Perpetua. While it *shouldn't* be necessary to install these fonts for the app to run, it is highly recommended as all of the interface formatting is built around them. The font files (.ttf) are included in this repository. Simply [**download the files**](https://github.com/jdvannest/HollowKnightTextDatabase/raw/refs/heads/main/Fonts) and double click them. Your system should then give you the option to install the fonts. **You only have to do this once.**
+This app uses the same fonts as the games: Trajan Pro and Perpetua. While it *shouldn't* be necessary to install these fonts for the app to run, it is highly recommended as all of the interface formatting is built around them. The font files (.ttf) are included in this repository. Simply download the files ([**Trajan Pro**](https://github.com/jdvannest/HollowKnightTextDatabase/raw/refs/heads/main/Fonts/Trajan%20Pro%20Regular.ttf) and [**Perpetua**](https://github.com/jdvannest/HollowKnightTextDatabase/raw/refs/heads/main/Fonts/Perpetua.ttf)) then double click them. Your system should then give you the option to install the fonts. **You only have to do this once.**
 
 ## Download the App
 
