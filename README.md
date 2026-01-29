@@ -1,12 +1,12 @@
-<img width="1274" height="521" alt="TitleImage" src="https://github.com/user-attachments/assets/2d9762ef-7662-4479-a7b4-4d590faf2c2b" />
+<img width="1251" height="502" alt="Splash" src="https://github.com/user-attachments/assets/99bcad29-3a06-4d2d-b43e-b9e326512f8f" />
 
 Welcome to the Hollow Knight Text Database! This app is a searchable repository of all the text in Hollow Knight and (eventually) Silksong, including their content updates. Don't know how to run code or query a database? Not a problem! This app handles everything for you; all you need to do is tell it what you want!
 
 # Set Up
 
-## Install the Hollow Knight Font (Optional)
+## Install the Hollow Knight Fonts (Optional)
 
-This app uses the same font as the games: Trajan Pro. While it *shouldn't* be necessary to install this font for the app to run, it is highly recommended as all of the interface formatting is built around it. The font file (.ttf) is included in this repository. Simply [download the file](https://github.com/jdvannest/HollowKnightTextDatabase/raw/refs/heads/main/Trajan%20Pro%20Regular.ttf) and double click it. Your system should then give you the option to install the font. **You only have to do this once.**
+This app uses the same fonts as the games: Trajan Pro and Perpetua. While it *shouldn't* be necessary to install these fonts for the app to run, it is highly recommended as all of the interface formatting is built around them. The font files (.ttf) are included in this repository. Simply [**download the files**](https://github.com/jdvannest/HollowKnightTextDatabase/raw/refs/heads/main/Fonts) and double click them. Your system should then give you the option to install the fonts. **You only have to do this once.**
 
 ## Download the App
 
@@ -14,11 +14,13 @@ This app uses the same font as the games: Trajan Pro. While it *shouldn't* be ne
 
 Download the [**HKTD_Mac.zip**](https://github.com/jdvannest/HollowKnightTextDatabase/raw/refs/heads/main/HKTD_Mac.zip) file. Double click the .zip file to extract the HKTD application. You can now move the app wherever you'd like on your system and the .zip file can be safely deleted.
 
-You may get an error when verifying the app along the lines of "This app is damaged and can't be opened". This is a security measure that Apple uses to ignore apps not downloaded through the App Store. To fix this, right click the app and select "copy". Then in the search bar, open the Terminal program. In the terminal type "xattr -dr com.apple.quarantine " then paste the path to the app in the terminal. The full terminal command should look like "xattr -dr com.apple.quarantine <copied_path>/HKTD.app" where <copied_path> should be the path to where you placed the app on your system. Press Enter in the terminal, and the app should work from now on.
+Apple Software will likely quarantine any executables that aren't downloaded from the App Store. To fix this, see [Troubleshooting - Mac Install](#mac-install) below.
 
 ### Windows
 
 Download the [**HKTD_Win.zip**](https://github.com/jdvannest/HollowKnightTextDatabase/raw/refs/heads/main/HKTD_Win.zip) file. Double click the .zip file to open its contents. Drag the HKTD Folder out of the opened .zip file to extract it. You can now move the Folder wherever you'd like on your system and the .zip file can be safely deleted. Inside the Folder you will find the app (.exe file) and a folder (*do not interact with this folder or you may prevent the app from working properly*). The app needs to remain inside the HKTD Folder, but you can make a shortcut of it so you can run the app from wherever you'd like on your system.
+
+Windows Defender (and likely any other anti-virus software you may have) may try to stop you from running unknown executables. To fix this, see [Troubleshooting - Windows Install](#windows-install) below.
 
 ## Run the App
 
@@ -54,7 +56,7 @@ You can use **any and/or all** of these filters at the same time! But, there are
 
 Firstly, **All** of the filter conditions must be met by a text entry in order to be included in the results. Think of this like using the word **and** in a sentence: The included text will have its Game in the Included Games List **AND** its Source in the Included Sources list **AND** its Type in the Included Types list **AND** its Topics in the Included Topics list **AND** contain any keywords (if used). For more complicated queries (i.e. filter combinations that would use **OR** instead of **AND**), see the [Advanced Queries](#advanced-queries) section below.
 
-Secondly, the **Topics** Filter prioritizes the Included topics over the Excluded. For Example, if topic *A* is included and topic *B* is excluded, and entry that has both topics *A* and *B* will be included in the results.
+Secondly, the **Topics** Filter prioritizes the Included topics over the Excluded. For Example, if topic *A* is included and topic *B* is excluded, an entry that has both topics *A* and *B* will be included in the results.
 
 When you're filters are set, press the **Search** button and the table will populate with all matching results.
 
@@ -84,9 +86,9 @@ The dropdown menus in the top left of the application have some useful functions
 
 Found a mistake in the data you want to fix? Want to change the topics of some of the text? Want to add new text? Want to replace all the text with those from a different game and still use the filter system??? You can do all of this and more!
 
-The database and all of the filter options are generated dynamically from a spreadsheet when running the app. While you won't have direct access to the original spreadsheet (that way the **Revert Data** menu option will always work as a backup), you can make a copy of it by **Exporting** the full data set (all filters include everything, no keywords) to a *.xlsx* file. You can change the exported data however you like (with a few caveats listed below) in a spreadsheet software like Excel or Google Sheets, then **Import** the data back into the app. The app will then create a new database, with new filters, that you can use just like before. The changes to the database will last (even when the app is closed) until you either **Import** new data, or **Revert** the data to it's original state.
+The database and all of the filter options are generated dynamically from a spreadsheet when running the app. While you won't have direct access to the original spreadsheet (that way the **Revert Data** menu option will always work as a backup), you can make a copy of it by **Exporting** the full data set (all filters include everything, no keywords) to a *.xlsx* file. You can edit the exported data in a spreadsheet software like Excel or Google Sheets, then **Import** the data back into the app. The app will then create a new database, with new filters, that you can use just like before. The changes to the database will be saved (even when the app is closed) until you either **Import** new data, or **Revert** the data to it's original state.
 
-There are a few rules to editing the data so the application will still function properly. Firstly, the new data must maintain the structure of the original data: 6 columns - Game, Source, Type, Text, Condition, Topics - in that order. Secondly, the Game, Source, and Type columns can only have a single entry, not a list. Thirdly, the Text entry can handle special characters with one exception: quotation marks. Any " should be replaced with ' or removed. Finally, if an entry has multiple topics, enter them as a comma separated list and the application will separate them automatically.
+If Importing or Reverting Data ever fails, see [Troubleshooting - Failed Imports](#failed-imports) below.
 
 *NOTE: If there are any major issues with the original data found on GitHub, please file an Issue report*
 
@@ -99,3 +101,23 @@ For example, say you want all dialogue either spoken by Hornet or pertaining to 
 The app does not allow you to do separate queries like this at the same time, but it will let you merge past queries into a single result. Using the **Multi-Query** menu option, you can upload any number of *.xlsx* files from previous queries and it will automatically merge them into a single *.xlsx* file (removing any duplicate entries).
 
 For the above example, you would save the output of Source:Hornet and Topics:Hornet individually, then use **Multi-Query** to merge the results into a single file. This file could then be **Imported** to the application for further filtering if you so choose.
+
+# Troubleshooting
+
+## Mac Install
+
+You may get an error when verifying the app along the lines of "This app is damaged and can't be opened". This is a security measure that Apple uses to ignore apps not downloaded through the App Store. To fix this, right click the app and select "copy". Then in the search bar, open the Terminal program. In the terminal type "xattr -dr com.apple.quarantine " then paste the path to the app in the terminal. The full terminal command should look like "xattr -dr com.apple.quarantine <copied_path>/HKTD.app" where <copied_path> should be the path to where you placed the app on your system. Press Enter in the terminal, and the app should work from now on.
+
+## Windows Install
+
+In most cases, Windows Defender will refuse to run the app after the download with a pop-up window saying "Windows protected your PC". To tell it to trust this app, click "More Info" then click the "Run anyway" button. You should only have to do this once.
+
+In some cases, Windows Defender (and possibly other software like McAfee) might be more agressive and delete the app (*.exe* file) on its own. It should give a pop-up notification warning about the file, which you can click to open the settings. You should then have a few seconds to tell Windows to trust the app before it is deleted.
+
+The process seems to vary greatly depending on whether you're using Windows 10 or 11, or if you have third party anti-virus software installed. If you are unable to launch the app, or prevent it from being automatically deleted, you may have to google your specific error/scenario to resolve this.
+
+## Failed Imports
+
+There are a few rules to editing the data so the application will still function properly. Firstly, the new data must maintain the structure of the original data: 6 columns - Game, Source, Type, Text, Condition, Topics - in that order. Secondly, the Game, Source, and Type columns can only have a single entry, not a list. Thirdly, the Text entry can handle special characters with one exception: both apostrophes and quotation marks in the same entry. In any text using both, " should be replaced with ' or removed. Finally, if an entry has multiple topics, enter them as a comma separated list and the application will separate them automatically.
+
+If the Revert Data option fails, then the internal data of the app has somehow been corrupted. In this situation, the simplest fix is to just delete the app and re-install it from GitHub.
