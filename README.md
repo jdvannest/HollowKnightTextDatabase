@@ -1,6 +1,6 @@
 <img width="1251" height="502" alt="Splash" src="https://github.com/user-attachments/assets/99bcad29-3a06-4d2d-b43e-b9e326512f8f" />
 
-Welcome to the Hollow Knight Text Database! This app is a searchable repository of all the text in Hollow Knight and (eventually) Silksong, including their content updates. Don't know how to run code or query a database? Not a problem! This app handles everything for you; all you need to do is tell it what you want!
+Welcome to the Hollow Knight Text Database! This app is a searchable repository of all the text in Hollow Knight and Silksong, including their content updates. Don't know how to run code or query a database? Not a problem! This app handles everything for you; all you need to do is tell it what you want!
 
 # Set Up
 
@@ -26,7 +26,7 @@ Windows Defender (and likely any other anti-virus software you may have) may try
 
 Simply double click the application to launch it! It may take a bit of time to launch (10-20 seconds), especially the first time, so don't worry.
 
-<img width="1401" height="773" alt="Sample" src="https://github.com/user-attachments/assets/83c1a006-3b61-4260-ae10-c8351cbed24c" />
+<img width="1400" height="773" alt="Sample" src="https://github.com/user-attachments/assets/cde945b5-033e-4920-8444-7d30afe11780" />
 
 # Using the App
 
@@ -34,13 +34,13 @@ Simply double click the application to launch it! It may take a bit of time to l
 
 This app queries a database of all the text in the Hollow Knight games, which is a lot and not entirely useful as a whole. So you can trim the text to only include specific entries by using **Filters**. There are five types of filters that you can use: **Game**, **Source**, **Type**, **Topic**, and **Keyword**.
 
-**Game:** Filter according to the game the text came from. Options are **H**ollow **K**night (HK), the **H**ollow **K**night: **H**idden **D**reams update (HK:HD), the **H**ollow **K**night: **L**ife**b**lood (HK:LB) update, the **H**ollow **K**night: **G**rimm **T**roupe (HK:GT) update, the **H**ollow **K**night: **G**od**m**aster (HK:GM) update, **S**ilk**s**ong (SS), and the **S**ilk **S**ong: **S**ea of **S**orrow (SS:SS) update (*NOTE: Silksong text not currently implemented*).
+**Game:** Filter according to the game the text came from. Options are **H**ollow **K**night (HK), the **H**ollow **K**night: **H**idden **D**reams update (HK:HD), the **H**ollow **K**night: **L**ife**b**lood (HK:LB) update, the **H**ollow **K**night: **G**rimm **T**roupe (HK:GT) update, the **H**ollow **K**night: **G**od**m**aster (HK:GM) update, **S**ilk**s**ong (SS), and the **S**ilk**s**ong: **S**ea of **S**orrow (SS:SS) update.
 
 **Source:** The source of the given text. Examples include NPCs, Journal Entries, Lore Tablets, etc.
 
-**Type:** The type of text. Options are Dialogue (text spoken by NPCs), Dream Nail (text prompted by using the Dream Nail), and Text (Non-spoken text such as menu descriptions or journal entries).
+**Type:** The type of text. Options are Dialogue (text spoken by NPCs), Dream Nail/Needolin (text prompted by using the item), and Text (Non-spoken text such as menu descriptions or journal entries).
 
-**Topic:** The topics addressed by the text. Examples include Void, Hallownest, Dreams, etc. These topics are admittedly subjective and many of them overlap, so scrolling through the full list is recommended so you can get a sense of what's included. There are some specific examples to highlight, however. Void, Vessels, Hollow Knight, The Knight, Infection, and Radiance are separate topics. Anything related to the nail weapon or the Nailmasters (Oro, Mato, Sheo, and Sly) is grouped under the topic of Nail. Anything related to Herrah, Monomon, or Lurien is grouped under the topic of Dreamers. If you'd like to change any of the topics on these entries, or add new ones, you can do so (see the [Editing the Data](#editing-the-data) section below). *NOTE: While Silksong text hasn't been added yet, some topics have been adjusted based on information provided by Silksong, namely the Delicate Flower being given the topic of Everbloom and Lifeblood being given the topic of Plasmium.*
+**Topic:** The topics addressed by the text. Examples include Void, Hallownest, Dreams, etc. These topics are admittedly subjective and many of them overlap, so scrolling through the full list is recommended so you can get a sense of what's included. There are some specific examples to highlight which can be found in the [Topic Clarification](#topic-clarification) Section Below.
 
 **Keyword:** Search the text itself and/or the conditions required for a given word or letter pattern.
 
@@ -50,7 +50,7 @@ The **Game**, **Source**, **Type**, and **Topic** Filters consist of two lists: 
 
 The **Keyword** Filter allows you to enter in your own term you'd like to search the text for. Typing in a keyword and clicking the **+** button will add it to the list of keywords underneath. To remove a keyword, type it again and click the **-** button. Keywords are **case-insensitive**, and **match whole words**. For example, using the keyword *Infect* will match all entries using *Infect* or *infect* as a complete word (i.e. surrounded by spaces or punctuation). If you want exact matches regardless of whether or not they're complete words, put the keyword in quotation marks. For example, using the keyword *"Infect"* will match all entries using those letters, such as  *Infect*, *Infection*, or *Infected*.
 
-The **Keyword** Filter searches the text entries themselves, but by checking the top box underneath the keyword list, you can also search the conditions. For example, using the keyword *First Encounter* and checking the "Include Condition" box will show you all the dialogue that occurs the first time you encounter an NPC (i.e. the condition of the text contains *First Encounter*). By default, the keyword filter looks for all text that contains *any* of the listed keywords. For example, using keywords *ghost* and *shadow* will return all text that contains the word *ghost* and/or the word *shadow*. If you want only the results that contain both *ghost* **and** *shadow*, check the second box under the keyword list. This box tells the app to only return text that contains **all** of the listed keywordsv(*NOTE: Using this option will always ignore the Condition of the text*).
+The **Keyword** Filter searches the text entries themselves, but by checking the top box underneath the keyword list, you can also search the conditions. For example, using the keyword *First Encounter* and checking the "Include Condition" box will show you all the dialogue that occurs the first time you encounter an NPC (i.e. the condition of the text contains *First Encounter*). By default, the keyword filter looks for all text that contains *any* of the listed keywords. For example, using keywords *ghost* and *shadow* will return all text that contains the word *ghost* and/or the word *shadow*. If you want only the results that contain both *ghost* **and** *shadow*, check the second box under the keyword list. This box tells the app to only return text that contains **all** of the listed keywords (*NOTE: Using this option will always ignore the Condition of the text*).
 
 You can use **any and/or all** of these filters at the same time! But, there are somethings to be aware of:
 
@@ -82,6 +82,22 @@ The dropdown menus in the top left of the application have some useful functions
 
 **View: Full Text** and **View: Single Row** will adjust the results table to show either the full text for each entry, or reduce each entry to a single row.
 
+## Topic Clarification
+
+Here are some clarifications on some of the included topics that aren't self-explanatory:
+
+-Void, Vessels, Hollow Knight, The Knight, Infection, and Radiance are separate topics.
+
+-Any entries related to the nail weapon or the Nailmasters (Oro, Mato, Sheo, and Sly) are grouped under the topic of Nail. Simalarly, any entries related to Pinmasters or the Pinstresses are grouped under Pinmasters.
+
+-Any entries related to Herrah, Monomon, or Lurien are grouped under the topic of Dreamers. 
+
+-Any entries detailing the religion of Pharloom (such as the pilgrimage, faith, or acts of service) are grouped under the topic of Religion. The topic Citadel contains entries related to the physical location or its functioning and purpose.
+
+-Any entries from Hollow Knight relating to the delicate flower or lifeblood have been tagged with the topics of Everbloom and Plasmium respectively to account for information given in Silksong.
+
+If you'd like to change any of the topics on these entries, or add new ones, you can do so (see the [Editing the Data](#editing-the-data) section below).
+
 ## Editing the Data
 
 Found a mistake in the data you want to fix? Want to change the topics of some of the text? Want to add new text? Want to replace all the text with those from a different game and still use the filter system??? You can do all of this and more!
@@ -90,7 +106,7 @@ The database and all of the filter options are generated dynamically from a spre
 
 If Importing or Reverting Data ever fails, see [Troubleshooting - Failed Imports](#failed-imports) below.
 
-*NOTE: If there are any major issues with the original data found on GitHub, please file an Issue report*
+*NOTE: If there are any major issues with the original data found on GitHub (such as missing or erroneous text), please file an Issue Report.*
 
 ## Advanced Queries
 
