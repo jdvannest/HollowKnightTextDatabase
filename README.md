@@ -34,7 +34,7 @@ Simply double click the application to launch it! It may take a bit of time to l
 
 This app queries a database of all the text in the Hollow Knight games, which is a lot and not entirely useful as a whole. So you can trim the text to only include specific entries by using **Filters**. There are five types of filters that you can use: **Game**, **Source**, **Type**, **Topic**, and **Keyword**.
 
-**Game:** Filter according to the game the text came from. Options are **H**ollow **K**night (HK), the **H**ollow **K**night: **H**idden **D**reams update (HK:HD), the **H**ollow **K**night: **L**ife**b**lood (HK:LB) update, the **H**ollow **K**night: **G**rimm **T**roupe (HK:GT) update, the **H**ollow **K**night: **G**od**m**aster (HK:GM) update, **S**ilk**s**ong (SS), and the **S**ilk**s**ong: **S**ea of **S**orrow (SS:SS) update.
+**Game:** Filter according to the game the text came from. Options are **H**ollow **K**night (HK), the **H**ollow **K**night: **H**idden **D**reams update (HK:HD), the **H**ollow **K**night: **L**ife**b**lood (HK:LB) update, the **H**ollow **K**night: **G**rimm **T**roupe (HK:GT) update, the **H**ollow **K**night: **G**od**m**aster (HK:GM) update, **S**ilk**s**ong (SS), and the **S**ilk**s**ong: **S**ea of **S**orrow (SS:SS) update. Cut Content is also included in the database (HK:C and SS:C), but is ignored by default. *Note: Cut content was either withheld or removed as a deliberate act from the developers. While it can provide helpful insight, it should not be considered explicitly canon.*
 
 **Source:** The source of the given text. Examples include NPCs, Journal Entries, Lore Tablets, etc.
 
